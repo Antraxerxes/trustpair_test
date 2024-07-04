@@ -40,6 +40,7 @@ class TrustIn
     else 
       #just dont move value for vat. could use a stub 
       evaluation.state
+    end
   end
 
   def update_evaluation_based_on_state(evaluation, company_state)
